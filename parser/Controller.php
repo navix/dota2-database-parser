@@ -17,7 +17,7 @@ class Controller {
 
 
 	public function run() {
-		//$this->parseData();
+		$this->parseData();
 		$this->loadMedia();
 		$this->response();
 	}

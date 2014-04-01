@@ -6,10 +6,10 @@ namespace Config;
 class MainConfig {
 
 	public $sources = [
-		'heroes' => 'sources/npc_heroes.txt',
-		'abilities' => 'sources/npc_abilities.txt',
-		'items' => 'sources/items.txt',
-		'locale' => 'sources/dota_english.txt',
+		'heroes' => '../dota2-database/sources/npc_heroes.txt',
+		'abilities' => '../dota2-database/sources/npc_abilities.txt',
+		'items' => '../dota2-database/sources/items.txt',
+		'locale' => '../dota2-database/sources/dota_english.txt',
 	];
 
 	public $blacklists = [
