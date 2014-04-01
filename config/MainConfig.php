@@ -39,4 +39,22 @@ class MainConfig {
 		'items' => '../dota2-database/json/items.json',
 	];
 
+	public $cdn = [
+		'heroes' => 'http://cdn.dota2.com/apps/dota2/images/heroes/',
+		'abilities' => 'http://cdn.dota2.com/apps/dota2/images/abilities/',
+		'items' => 'http://cdn.dota2.com/apps/dota2/images/items/',
+	];
+
+	public $images = [
+		'heroes' => '../dota2-database/images/heroes/',
+		'abilities' => '../dota2-database/images/abilities/',
+		'items' => '../dota2-database/images/items/',
+	];
+
+	public $imagesSuffixes = [
+		'heroes' => ['_sb.png', '_lg.png', '_full.png', '_vert.jpg'],
+		'abilities' => ['_hp1.png', '_hp2.png'],
+		'items' => ['_lg.png'],
+	];
+
 }

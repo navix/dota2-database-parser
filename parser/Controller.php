@@ -17,8 +17,9 @@ class Controller {
 
 
 	public function run() {
-		$this->parseData();
-		//$this->loadMedia();
+		//$this->parseData();
+		$this->loadMedia();
+		$this->response();
 	}
 
 
@@ -30,8 +31,13 @@ class Controller {
 
 
 	private function loadMedia() {
-		$mediaLoader = new MediaLoader();
+		$mediaLoader = new MediaLoader($this->config);
 		$mediaLoader->load();
+	}
+
+
+	private function response() {
+		echo 'Completed!';
 	}
 
 }
